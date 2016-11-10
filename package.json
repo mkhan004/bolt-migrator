@@ -1,0 +1,32 @@
+{
+  "name": "bolt-migrator",
+  "version": "1.0.0",
+  "description": "atom-lightning-bolt migration tool",
+  "main": "migrator.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bolt-migrator": "./migrator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkhan004/bolt-migrator.git"
+  },
+  "author": "Shakil Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkhan004/bolt-migrator/issues"
+  },
+  "homepage": "https://github.com/mkhan004/bolt-migrator#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "commander": "^2.9.0",
+    "json2yaml": "^1.1.0",
+    "lodash": "^4.16.6",
+    "merge": "^1.2.0",
+    "replace": "^0.3.0"
+  }
+}
